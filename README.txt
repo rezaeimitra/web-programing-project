@@ -1,4 +1,3 @@
-# web-programing-project
 # Mira Atelier
 
 **Mira Atelier** is a sleek, modern, and fully responsive website template crafted as part of a university project for a course in **Web Programming**.  
@@ -32,34 +31,32 @@ It’s designed for fashion and photography studios, serving as a digital hub fo
 
 🗂️ Project Structure
 
-- `src/`
-- `css/`
-- `html/`
-- `image/`
-- `js/`
-- `admin_dashboard.php`
-- `admin_login_prosees.php`
-- `admin_register.php`
-- `booking_appointment.php`
-- `bookings.php`
-- `contact.php`
-- `DBConnection.php`
-- `index.php`
-- `login.php`
-- `logout.php`
-- `process_contact.php`
-- `process_register.php`
-- `profile.php`
-- `register.php`
-- `user_dashboard.php`
-- `gitignore`
-- `docker-compose.yaml`
-- `Dockerfile`
-- `README.md` 
+src
+css
+html
+image
+js
+admin_dashboard.php
+book_appointment.php
+bookings.php
+contact.php
+DBConnection.php
+index.php
+login.php
+logout.php
+process_contact.php
+process_register.php
+profile.php
+register.php
+user_dashboard.php
+.gitignore
+docker-compose.yaml
+Dockerfile
+README.txt  
 
 ---
 
-**🔍 How to Use**
+🔍 How to Use
 
 1. Clone the repository  
 2. Set up the database connection in `DBConnection.php`  
@@ -69,14 +66,14 @@ It’s designed for fashion and photography studios, serving as a digital hub fo
 
 ---
 
-**🎓 Academic Context**
+🎓 Academic Context
 
 This project was developed as a final assignment for the **Web Programming** course at university.  
 The main objectives were to apply front-end and back-end skills, use responsive design principles, and build a dynamic, real-world inspired platform using PHP and SQL.
 
 ---
 
-**✨ Why This Project?**
+✨ Why This Project?
 
 This project showcases a full-stack PHP-based web application with elegant design and practical functionality. It demonstrates the ability to manage user sessions, connect to databases, handle form submissions, and deliver a seamless user experience — skills essential for web development roles.
 

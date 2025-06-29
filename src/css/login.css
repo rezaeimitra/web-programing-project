@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --gold: #d4af37;
+    --black: #111;
+    --light-color: #f1cb4e;
+    --box-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.05);
+    --border: 0.1rem solid var(--gold);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: #000;
+     color: var(--light-color);;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    padding-top: 7rem;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--gold);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+header nav a:hover {
+    color: var(--gold);
+}
+
+.login {
+    padding: 5rem 2rem; 
+    max-width: 400px; 
+    margin: 10rem auto; 
+    background: rgb(18, 14, 4); 
+    border-radius: 1rem; 
+    box-shadow: 0 1rem 3rem rgba(212, 175, 55, 0.08); 
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-size: 3rem; 
+    letter-spacing: .2rem; 
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 2rem; 
+}
+
+.form-group label {
+    font-size: 1.5rem; 
+    color: var(--light-color);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem; 
+    font-size: 1.5rem; 
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.form-group a {
+    font-size: 1.4rem;
+    color: var(--gold);
+    margin-top: 3rem;
+    display: inline-block;
+}
+
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem; 
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--gold);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+    transition: background .3s, color .3s; 
+}
+
+.btn:hover {
+    background: var(--gold);
+    color: #fff;
+}
