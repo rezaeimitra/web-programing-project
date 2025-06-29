@@ -32,30 +32,30 @@ It’s designed for fashion and photography studios, serving as a digital hub fo
 
 🗂️ Project Structure
 
--src/
--css/
--html/
--image/
--js/
--admin_dashboard.php
--admin_login_prosees.php
--admin_register.php
--booking_appointment.php
--bookings.php
--contact.php
--DBConnection.php
--index.php
--login.php
--logout.php
--process_contact.php
--process_register.php
--profile.php
--register.php
--user_dashboard.php
--gitignore
--docker-compose.yaml
--Dockerfile
--README.md 
+-`src/`
+-`css/`
+-`html/`
+-`image/`
+-`js/`
+-`admin_dashboard.php`
+-`admin_login_prosees.php`
+-`admin_register.php`
+-`booking_appointment.php`
+-`bookings.php`
+-`contact.php`
+-`DBConnection.php`
+-`index.php`
+-`login.php`
+-`logout.php`
+-`process_contact.php`
+-`process_register.php`
+-`profile.php`
+-`register.php`
+-`user_dashboard.php`
+-`gitignore`
+-`docker-compose.yaml`
+-`Dockerfile`
+-`README.md` 
 
 ---
 
