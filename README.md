@@ -59,7 +59,7 @@ It’s designed for fashion and photography studios, serving as a digital hub fo
 
 ---
 
-##🔍 How to Use
+**🔍 How to Use**
 
 1. Clone the repository  
 2. Set up the database connection in `DBConnection.php`  
